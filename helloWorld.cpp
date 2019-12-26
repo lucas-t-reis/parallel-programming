@@ -16,16 +16,16 @@ int main() {
 	#pragma omp parallel private(tId, nThreads)
 	{
 	
-	tId = omp_get_thread_num();
+		tId = omp_get_thread_num();
 
-	printf("Hello parallel world, from thread #%d\n", tId);
+		printf("Hello parallel world, from thread #%d\n", tId);
 
-	// Assuming master threads to be 0
-	if(tId == master) {
-		nThreads = omp_get_num_threads();
-		printf("# of threads %d\n", nThreads);
-	}
-	
+		// Assuming master threads to be 0
+		if(tId == master) {
+			nThreads = omp_get_num_threads();
+			printf("# of threads %d\n", nThreads);
+		}
+
 	} // Reunite threads
 
 }
