@@ -12,6 +12,11 @@ Aiming to build a future "quick reference", there is a structure in every .cpp f
 
 ## Functionalities covered
 
+### Functions
 - [X] omp_get_num_threads()
 - [X] omp_get_thread_num()
+- [ ] omp_set_num_threads()
+
+### Clauses
 - [X] shared() & private()
+- [ ] num_threads()
