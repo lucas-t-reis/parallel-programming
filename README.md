@@ -19,4 +19,5 @@ Aiming to build a future "quick reference", there is a structure in every .cpp f
 
 ### Clauses
 - [X] shared() & private()
+- [X] firstprivate() & lastprivate()
 - [ ] num_threads()
