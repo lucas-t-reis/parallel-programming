@@ -5,16 +5,20 @@ with random thread identifications from (0,1,...,nThreads) */
 
 #include <cstdio>
 #include <omp.h>
+#include "timer.h"
 
 int main() {
 	
 	int tId, nThreads;
 	int master = 0;
 
+	Timer timer("main");
+
 	// Spawning threads, each one with its own @tId and @nThreads
 	// which is possible due to the private(var1, var2, ..., varN) function
 	#pragma omp parallel private(tId, nThreads)
 	{
+
 	
 		tId = omp_get_thread_num();
 
