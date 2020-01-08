@@ -15,9 +15,11 @@ Aiming to build a future "quick reference", there is a structure in every .cpp f
 ### Functions
 - [X] omp_get_num_threads()
 - [X] omp_get_thread_num()
+- [X] omp_get_max_threads()
 - [ ] omp_set_num_threads()
 
 ### Clauses
 - [X] shared() & private()
 - [X] firstprivate() & lastprivate()
+- [X] nowait, barrier, master, single
 - [ ] num_threads()
