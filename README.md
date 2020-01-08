@@ -21,5 +21,6 @@ Aiming to build a future "quick reference", there is a structure in every .cpp f
 ### Clauses
 - [X] shared() & private()
 - [X] firstprivate() & lastprivate()
+- [X] reduction
 - [X] nowait, barrier, master, single
 - [ ] num_threads()
