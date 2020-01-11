@@ -24,3 +24,4 @@ Aiming to build a future "quick reference", there is a structure in every .cpp f
 - [X] reduction
 - [X] nowait, barrier, master, single
 - [ ] num_threads()
+- [X] schedule - dynamic, static, guided
