@@ -25,7 +25,7 @@ public:
 		std::chrono::duration<double> elapsed_time = timer_end - timer_start;
 		
 		// Safe output - guaranteed by flush
-		std::cout << name << " execution time " << std::setprecision(4) << elapsed_time.count() * 1000 << "ms\n" << std::flush;
+		std::cout << name << " execution time " << std::fixed << std::setprecision(4) << elapsed_time.count() * 1000 << "ms\n" << std::flush;
 	}
 
 private:
