@@ -24,7 +24,8 @@ Aiming to build a future "quick reference", there is a structure in every .cpp f
 - [X] omp_get_num_threads()
 - [X] omp_get_thread_num()
 - [X] omp_get_max_threads()
-- [ ] omp_set_num_threads()
+- [X] omp_set_num_threads()
+- [X] omp_get_wtime()
 
 ### Clauses
 - [X] shared() & private()
