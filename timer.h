@@ -2,6 +2,8 @@
    Feel free to use/modify it as you wish. If you have any suggestion or found a bug, feel free to create a branch and request a merge (:
    For now it is a basic class but I plan on expanding it later.
 */
+#ifndef TIMER_H
+#define TIMER_H
 
 #include <chrono>
 #include <iostream>
@@ -34,3 +36,6 @@ private:
 	std::chrono::time_point<std::chrono::high_resolution_clock> timer_start;	
 
 };
+
+
+#endif
