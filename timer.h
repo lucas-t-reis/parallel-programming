@@ -1,5 +1,5 @@
 /* A simple class created to encapsulate a repetitive process of creating high_resolution_clock everytime you need to profile something in c++
-   Feel free to use/modify it as you wish. If you have any suggestion or found a bug, feel free to create a branch and request a merge (:
+   Feel free to use/modify it as you wish. If you have any suggestion or found a bug, you can create a branch and request a merge (:
    For now it is a basic class but I plan on expanding it later.
 */
 #ifndef TIMER_H
